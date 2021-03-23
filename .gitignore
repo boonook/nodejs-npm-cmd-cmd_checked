@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+tmp
+
+# Dependency directory
+# Commenting this out is preferred by some people, see
+# https://npmjs.org/doc/faq.html#Should-I-check-my-node_modules-folder-into-git
+node_modules
+npm-debug.log
+
+# SASS temp files
+.sass-cache
+
+# Sublime
+.sublime-project
+*.sublime-project
+*.sublime-workspace
+
+# Vscode
+.vscode
+
+# Webstorm
+.idea
+
+.DS_Store
+Thumbs.db
+
+# Typings definitions
+typings
+
+# Build & Cache files
+/dist
+/app/assets.json
+/app/public/dist
+/app/public/styles
+*.css
+
+# Test Artifacts
+/tests/e2e/videos/
+/tests/e2e/screenshots/
+/tests/unit/coverage/

@@ -1,0 +1,28 @@
+{
+    "menu": [
+        {
+            "name": "login",
+            "path": "/login",
+            "component": "../views/login/login.vue",
+            "meta": {
+                "title": "登录界面"
+            }
+        },
+        {
+            "name": "home",
+            "path": "/home",
+            "component": "../src/views/home/home.vue",
+            "meta": {
+                "title": "航班管家"
+            }
+        },
+        {
+            "name": "path_path1_path2",
+            "path": "path_path1_path2",
+            "component": "../src/views/path/path1/path2.vue",
+            "meta": {
+                "title": "路径测试"
+            }
+        }
+    ]
+}

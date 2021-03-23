@@ -1,0 +1,22 @@
+{
+  "name": "nodejsTre",
+  "version": "1.0.0",
+  "description": "nodejs操作命令行",
+  "main": "script/app.js",
+  "author": "boonook@163.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "node script/index",
+    "route": "node script/handle.js"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.35",
+    "body-parser": "^1.19.0",
+    "console-color-mr": "^2.0.1",
+    "express": "^4.17.1",
+    "iconv-lite": "^0.6.2",
+    "inquirer": "^8.0.0",
+    "moment": "^2.29.1",
+    "node-cmd": "^4.0.0"
+  }
+}
