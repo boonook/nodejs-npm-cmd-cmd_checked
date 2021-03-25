@@ -1,0 +1,31 @@
+{
+  // #ifdef wxapp-hbgj
+  "subPackages": [
+    {
+      "root": "projects/promotion",
+      "pages": [
+        {
+          "name": "springTravel",
+          "path": "pages/springTravel/pages/home/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FF0044",
+            "navigationBarTextStyle": "white",
+            "navigationBarTitleText": "助力免费拿"
+          },
+          "meta": { "auth": true }
+        },
+        {
+          "name": "springTravel",
+          "path": "pages/springTravel/pages/svga/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FF0044",
+            "navigationBarTextStyle": "white",
+            "navigationBarTitleText": "svga测试"
+          },
+          "meta": { "auth": true }
+        }
+      ]
+    }
+  ]
+  // #endif
+}
